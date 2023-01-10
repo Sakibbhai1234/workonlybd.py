@@ -10,10 +10,10 @@ from datetime import datetime
 from time import sleep
 from time import sleep as waktu
 
-	import os
+import os
 import os
 try:
-    import requests
+  import requests
 except ImportError:
     print('\n [✓] installing requests !...\n')
     os.system('pip install requests')
